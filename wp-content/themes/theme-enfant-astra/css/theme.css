@@ -1,0 +1,12 @@
+
+/* centre le boutton envoie f1 */
+#wpforms-submit-251 {
+    margin-left: 28%;
+    padding: 0 55px;
+    font-size: 15px;
+    
+}
+
+#wpforms-submit-251:hover {
+    background-color: #C02E44 !important;
+}
