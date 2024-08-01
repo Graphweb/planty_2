@@ -1,4 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body *{
+    font-family: 'syne', sans-serif;
+}
+
+/* *************************** */
+
 /* centre le boutton envoie f1 */
 #wpforms-submit-251 {
     margin-left: 28%;
@@ -9,4 +17,49 @@
 
 #wpforms-submit-251:hover {
     background-color: #C02E44 !important;
+}
+
+/* ******************************* */
+
+/* carre blanc / quantité */
+.carre-blanc {
+    width: 60px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   margin-left: 38%;
+   
+}
+
+.input-quantite {
+    width: 60px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+/* ***************************************** */
+
+/* hook */
+
+#primary-site-navigation-desktop a{
+    font-size: 16px;
+    color: #000;
+}
+
+#primary-site-navigation-desktop a:hover {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* boutton formulaire 2 */
+#wpforms-submit-377{
+    margin-left: 41%;
+    margin-top: 20px;
+    padding: 0 55px;
+    font-size: 15px;
 }
