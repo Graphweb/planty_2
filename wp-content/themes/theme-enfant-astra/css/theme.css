@@ -42,7 +42,7 @@ body *{
     font-size: 18px;
 }
 
-/* ***************************************** */
+/* ****************************** */
 
 /* hook */
 
@@ -50,11 +50,14 @@ body *{
     font-size: 16px;
     color: #000;
 }
+/* ****************************** */
 
+/* hover nav menu */
 #primary-site-navigation-desktop a:hover {
     font-size: 13px;
     font-weight: 700;
 }
+/* ***************************** */
 
 /* boutton formulaire 2 */
 #wpforms-submit-377{
@@ -63,3 +66,21 @@ body *{
     padding: 0 55px;
     font-size: 15px;
 }
+/* ***************************** */
+
+/* formulaire livraison création espace entre deux colonne */
+
+#wpforms-377-field_6-container,
+#wpforms-377-field_7-container, 
+#wpforms-377-field_5-container {
+
+    padding-left: 35px;
+}
+
+#wpforms-377-field_1-container,
+#wpforms-377-field_2-container, 
+#wpforms-377-field_3-container {
+
+    padding-right: 35px;
+}
+/* *************************** */
