@@ -84,3 +84,13 @@ body *{
     padding-right: 35px;
 }
 /* *************************** */
+
+
+/* boutton formulaire 1 colonne */
+#wpforms-submit-635{
+
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 0 55px;
+    font-size: 15px;
+}
